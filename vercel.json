@@ -3,10 +3,7 @@
   "builds": [
     {
       "src": "api/flask.py",
-      "use": "@vercel/python",
-      "config": {
-        "runtime": "python-3.10.10" 
-      }
+      "use": "@vercel/python"
     }
   ],
   "routes": [
