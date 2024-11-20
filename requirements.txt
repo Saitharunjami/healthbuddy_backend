@@ -7,3 +7,6 @@ tensorflow==2.10.0  # Compatible with Python 3.10
 gunicorn==21.2.0
 scikit-learn==1.0.2  # Compatible with Python 3.10
 pillow==9.5.0
+setuptools>=58.0
+wheel
+
