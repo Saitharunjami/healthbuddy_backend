@@ -15,7 +15,7 @@ CORS(app, resources={r"/api/*": {"origins": "https://myhealthbuddy.netlify.app"}
 # --- Diabetes Model ---
 diabetes_model = joblib.load('diabetes_model.pkl')
 
-@app.route('/diabetes/predict', methods=['POST'])
+@app.route('/api/diabetes/predict', methods=['POST'])
 def predict_diabetes():
     try:
         data = request.get_json()
