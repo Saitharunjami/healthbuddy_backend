@@ -7,6 +7,7 @@ import os
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array, load_img
 from groq import Groq
+import awsgi
 
 # Initialize Flask app
 app = Flask(__name__)
