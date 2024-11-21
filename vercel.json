@@ -11,13 +11,5 @@
       "src": "/api/(.*)",
       "dest": "api/flask.py"
     }
-  ],
-  "build": {
-    "env": {
-      "VIRTUAL_ENV": "/tmp/virtualenv"
-    },
-    "scripts": {
-      "postinstall": "pip install distutils"
-    }
-  }
+  ]
 }
