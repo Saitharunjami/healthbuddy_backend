@@ -10,7 +10,7 @@ from groq import Groq
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://myhealthbuddy.netlify.app"}})  # Enable CORS for all routes
+CORS(app, resources={r"/api/*": {"origins": "https://myhealthbuddy.netlify.app"}})
 
 # --- Diabetes Model ---
 diabetes_model = joblib.load('diabetes_model.pkl')
